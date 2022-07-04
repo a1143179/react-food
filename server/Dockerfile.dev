@@ -1,0 +1,6 @@
+FROM node:16
+WORKDIR /app
+COPY --chown=node:node ./package.json ./
+RUN npm i
+COPY --chown=node:node . .
+CMD ["npm", "run", "dev"]

@@ -1,0 +1,50 @@
+[
+  {
+    "productId": "FFBC",
+    "title": "Burrito",
+    "description": "Made with your choice of filling, jasmine rice, pinto beans, freshly made salsas, cheese, sour cream and lettuce all wrapped in a fluffy 12 inch flour tortilla.",
+    "imageUrl": "https://dph95f73vdxmz.cloudfront.net/uploads/_productPreview/Burrito.jpg",
+    "retailPrice": 12.9,
+    "category": {
+      "name": "mains",
+      "priority": 2,
+      "displaySize": "large"
+    }
+  },
+  {
+    "productId": "FFNL",
+    "title": "Nachos",
+    "description": "Crispy corn chips topped with your choice of filling, melted cheese, guacamole, sour cream, and our tomato salsa.",
+    "imageUrl": "https://dph95f73vdxmz.cloudfront.net/uploads/_productPreview/Nachos.jpg",
+    "retailPrice": 13.9,
+    "category": {
+      "name": "Nachos & Tacos",
+      "priority": 2,
+      "displaySize": "large"
+    }
+  },
+  {
+    "productId": "BNSDPEOL0600",
+    "title": "Pepsi 600ml",
+    "description": null,
+    "imageUrl": "https://dph95f73vdxmz.cloudfront.net/uploads/_productPreview/Pepsi__600ml.jpg",
+    "retailPrice": 4.1,
+    "category": {
+      "name": "Soft Drinks",
+      "priority": 7,
+      "displaySize": "small"
+    }
+  },
+  {
+    "productId": "FFZIVL00",
+    "title": "Vanilla Lace Ice Cream Sandwich",
+    "description": "Delicious creamy vanilla ice cream made with real vanilla bean, sandwiched between two almond lace cookies(contains nuts).",
+    "imageUrl": "https://dph95f73vdxmz.cloudfront.net/uploads/_productPreview/N22014_Ice_Cream_Bundle_Zam_App_600x400.jpg",
+    "retailPrice": 3.9,
+    "category": {
+      "name": "Limited Time Offer",
+      "priority": 1,
+      "displaySize": "large"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Laszlo Leber (Codeching)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "2.8.4",
+    "db-migrate": "^0.11.13",
+    "express": "4.16.3",
+    "nodemon": "1.18.3",
+    "pg": "8.0.3"
+  },
+  "scripts": {
+    "dev": "nodemon -L",
+    "start": "node index.js"
+  }
+}
