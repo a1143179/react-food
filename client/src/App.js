@@ -43,8 +43,8 @@ const App = () => {
   const handleClickCheckout = () => {
     const today = new Date();
     if (today.getHours() < 10 || today.getHours() >= 22) {
-//      alert('The order can only be made after 10 am and before 10 pm.');
-  //    return;
+      alert('The order can only be made after 10 am and before 10 pm.');
+      return;
     }
     let noneZeroQuantities = {};
     for (var i in quantities) {
