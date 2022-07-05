@@ -1,6 +1,8 @@
 
 This is a simple shopping cart demo made by React, Node/Express and Postgres.
 
+The screenshots can be found in the /screenshots folder.
+
 Run it by 
 ```
 docker-compose up --build

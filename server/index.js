@@ -47,7 +47,7 @@ app.get("/orders", (req, res) => {
 app.post("/checkout", async (req, res) => {
   if (!req.body.quantities) res.send({ success: false });
   for(var i in req.body.quantities) {
-    pgClient.query(
+    await pgClient.query(
       "INSERT INTO orders(product_id, quantity, created) VALUES($1, $2, $3)", 
       [i, req.body.quantities[i], new Date().toISOString()]
     );
