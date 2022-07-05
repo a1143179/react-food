@@ -35,7 +35,8 @@ pgClient.on("connect", client => {
 //Express route definitions
 app.get("/orders", (req, res) => {
   pgClient.query('SELECT * FROM orders ORDER BY created;', [], (err, results) => {
-    if (err) {res.send(keys);
+    if (err) {
+      console.log(err);
       return;
     }
     res.send(JSON.stringify(results.rows));
